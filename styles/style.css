@@ -11,8 +11,12 @@ html{
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Space+Mono&display=swap'); 
 :root{
-    --gris1: rgb(124, 124, 124);
-    --gris2: rgb(98, 97, 97);
+    --ver: rgb(0, 167, 14);
+    --roj: rgb(206, 0, 0);
+    --ama: rgb(217, 255, 0);
+    --nar: rgb(236, 88, 19);
+    --azu: rgb(0, 101, 196);
+    --cie: rgb(0, 232, 240);
 }
 body{
     width: 800px;
@@ -21,7 +25,36 @@ body{
 *{
     font-family: 'Roboto Mono', monospace;
     font-family: 'Space Mono', monospace;
-
-h1,p{
-        color: crimson;
 }
+/*CONFIGURACIÓN HEADER*/
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content : center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    color: rgb(185, 16, 50);
+    margin: auto; 
+}
+p{
+    color:indianred;
+}
+#f{
+    color: var(--ver);
+}
+#l{
+    color: var(--nar) ;
+}
+#a{
+    color: var(--azu);
+}
+#g{
+    color: var(--ama);
+}
+#s{
+    color: var(--cie);
+}
+/*CONFIGURACIÓN BODY*/
