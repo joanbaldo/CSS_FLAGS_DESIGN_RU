@@ -106,8 +106,10 @@ p {
     flex-grow: 3;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    /* row-gap: 10px; */
+    column-gap: 30px;
   
     background-color: rgb(94, 152, 170);
 
@@ -140,11 +142,10 @@ p {
     width: 140px;
     background-color: rgb(221, 166, 13)
 }
-#b1{
+/* #b1{
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-2
+} */
