@@ -5,12 +5,15 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    }
-html{
+}
+
+html {
     font-size: 16px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Space+Mono&display=swap'); 
-:root{
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Space+Mono&display=swap');
+
+:root {
     --ver: rgb(0, 167, 14);
     --roj: rgb(206, 0, 0);
     --ama: rgb(217, 255, 0);
@@ -18,79 +21,125 @@ html{
     --azu: rgb(0, 101, 196);
     --cie: rgb(0, 232, 240);
 }
-body{
+
+body {
     width: 800px;
-    margin: 0 auto; 
- }
-*{
+    margin: 0 auto;
+}
+
+* {
     font-family: 'Roboto Mono', monospace;
     font-family: 'Space Mono', monospace;
 }
+
 /*CONFIGURACIÓN HEADER*/
-header{
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content : center;
+    align-content: center;
 }
-h1{
+
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.5rem;
     color: rgb(185, 16, 50);
-    margin: auto; 
+    margin: auto;
 }
-p{
-    color:indianred;
+
+p {
+    color: indianred;
 }
-#f{
+
+#f {
     color: var(--ver);
 }
-#l{
-    color: var(--nar) ;
+
+#l {
+    color: var(--nar);
 }
-#a{
+
+#a {
     color: var(--azu);
 }
-#g{
+
+#g {
     color: var(--ama);
 }
-#s{
+
+#s {
     color: var(--cie);
 }
-#ref{
-    margin-top: -80px;  
+
+#ref {
+    margin-top: -80px;
     margin-bottom: -80px;
-    transform: scale(0.5) translate(-0%, 0%);;
+    transform: scale(0.5) translate(-0%, 0%);
+    ;
 }
+
 /*CONFIGURACIÓN MAIN*/
 /**----------------- <SECTION> >MASTER    **/
-#master{
+#master {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content : center;
+    /* justify-content: space-around;
+    align-content: space-around; */
     height: 400px;
     background-color: rgb(117, 116, 116);
 }
+
 /**----------------- Caja A (izda - 9 banderas **/
-#A{
+#A {
     display: flex;
-    flex-grow: 3;
-    flex-direction: row;
-    background-color: rgb(131, 178, 192);
-}
-/**----------------- Caja B (drcha - 4 banderas **/
-#B{
-    display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
-    align-content : center;
-    background-color: rgb(231, 231, 94)
-    ;
+    align-content: center;
+    /* flex-grow: 3; */
+    width: 600px;
+    background-color: rgb(131, 178, 192);
+
 }
-.flag{
+
+#A1 {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: row;
+    background-color: rgb(94, 152, 170);
+
+}
+
+#A2 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: rgb(66, 121, 138);
+
+}
+
+/**----------------- Caja B (drcha - 4 banderas **/
+#B {
+    display: flex;
+    /* flex-grow: 1; */
+    width: 200px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(248, 248, 157);
+}
+
+.flag {
+    /* display: flex;
+    justify-content: center; */
     height: 80px;
-    width: 160px;
-    background-color: rgb(201, 201, 58)
+    width: 140px;
+    background-color: rgb(221, 166, 13)
 }
+#b1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+2
