@@ -57,4 +57,8 @@ p{
 #s{
     color: var(--cie);
 }
+#ref{
+       
+    transform: scale(0.5) translate(-0%, -40%);;
+}
 /*CONFIGURACIÓN BODY*/
